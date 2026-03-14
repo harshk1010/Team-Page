@@ -6,7 +6,7 @@ app = FastAPI(title="Team API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://team-page-5u837rh72-harshs-projects-fb0ed05f.vercel.app/"],
+    allow_origins=["https://team-page-dusky-phi.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
