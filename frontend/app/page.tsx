@@ -8,7 +8,7 @@ export default function TeamPage() {
   const [team, setTeam] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/team/")
+    fetch("https://team-page-tlit.onrender.com/api/team/")
       .then(res => res.json())
       .then(data => setTeam(data));
   }, []);
