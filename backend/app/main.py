@@ -13,3 +13,11 @@ app.add_middleware(
 )
 
 app.include_router(team_routes.router, prefix="/api/team")
+
+@app.get("/")
+def root():
+    return {
+        "message": "Team API is running successfully.",
+        "docs": "/docs",
+        "endpoint": "/api/team/"
+    }
