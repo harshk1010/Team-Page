@@ -1,4 +1,4 @@
 export async function getTeamMembers() {
-  const res = await fetch("http://localhost:8000/api/team");
+  const res = await fetch("https://team-page-tlit.onrender.com/api/team");
   return res.json();
 }
