@@ -14,10 +14,10 @@ The goal of the project is to simulate a **real company team page** with a clean
 # Live Demo
 
 Frontend (Vercel):  
-`https://team-page-dusky-phi.vercel.app/`
+`[https://team-page-dusky-phi.vercel.app/]`
 
 Backend API (Render / Railway):  
-`https://team-page-tlit.onrender.com/`
+`[https://team-page-tlit.onrender.com/]`
 
 Example API Endpoint:
 
